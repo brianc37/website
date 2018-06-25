@@ -17,7 +17,7 @@ figcaption {
 
 .wrapper {
   width:700px;
-  margin: 25px auto;
+  margin: 0px auto;
   overflow:hidden;
   border: 0px solid grey;
   position:relative;
