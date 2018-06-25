@@ -7,3 +7,55 @@ figure {
 figcaption {
     text-align: center;
 }
+{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width:1000px;
+  margin: 25px auto;
+  overflow:hidden;
+  border: 1px solid grey;
+  position:relative;
+}
+
+.item {
+  height:150px;
+  width:25%;
+  float:left;
+  background-position: left top;
+  transition:width 0.5s ease;
+  position:relative;
+  z-index:2;
+}
+
+.wrapper:hover .item {
+  width:10%;
+  transition:width 0.5s ease;
+}
+
+.wrapper .item:hover{
+  width:70%;
+  transition:width 0.5s ease;
+}
+
+.one {
+    background-image:url(http://lorempixel.com/700/150/abstract/);
+}
+
+.catch {
+  position:absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  z-index:1;
+}
+
+.catch:hover ~ .item {
+  width:25%;
+}
