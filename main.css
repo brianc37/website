@@ -25,7 +25,7 @@ figcaption {
 
 .item {
   height:200px;
-  width:28%;
+  width:28.5%;
   float:left;
   background-position: left top;
   transition:width 0.5s ease;
@@ -34,12 +34,12 @@ figcaption {
 }
 
 .wrapper:hover .item {
-  width:10%;
+  width:0%;
   transition:width 0.5s ease;
 }
 
 .wrapper .item:hover{
-  width:110%;
+  width:100%;
   transition:width 0.5s ease;
 }
 
@@ -57,5 +57,5 @@ figcaption {
 }
 
 .catch:hover ~ .item {
-  width:28%;
+  width:28.5%;
 }
