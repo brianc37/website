@@ -1,3 +1,9 @@
 body {
     background-color: lightblue;
 }
+figure {
+    display:inline-block;
+}
+figcaption {
+    text-align: center;
+}
