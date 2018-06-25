@@ -16,15 +16,15 @@ figcaption {
 }
 
 .wrapper {
-  width:1000px;
+  width:700px;
   margin: 25px auto;
   overflow:hidden;
-  border: 1px solid grey;
+  border: 0px solid grey;
   position:relative;
 }
 
 .item {
-  height:150px;
+  height:200px;
   width:25%;
   float:left;
   background-position: left top;
