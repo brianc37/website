@@ -1,6 +1,6 @@
 # The Gape Station
 
-This website aims to inform and teach people about Gabe Newell otherwise known as Bob Magrann. 
+This website aims to inform and teach people about Gape Newell otherwise known as Bob Magrann. 
 
 ## Running the tests
 
