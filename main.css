@@ -59,7 +59,7 @@ figcaption {
 .catch:hover ~ .item {
   width:28.5%;
 }
-a { text-decoration: none; color:red; }
+a { text-decoration: none; color:black; }
 a:visited { text-decoration: none; }
 a:hover { text-decoration: none; }
 a:focus { text-decoration: none; }
