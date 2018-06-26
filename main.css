@@ -46,7 +46,12 @@ figcaption {
 .one {
     background-image:url(https://cdn.discordapp.com/attachments/385909370271039498/460672423738605568/wow.jpg);
 }
-
+.two {
+    background-image:url(https://media.discordapp.net/attachments/386724492862554113/460987572139851793/Untitled.png);
+}
+.three {
+    background-image:url(https://cdn.discordapp.com/attachments/385909370271039498/460672423738605568/wow.jpg);
+}
 .catch {
   position:absolute;
   top:0;
