@@ -34,6 +34,8 @@
 			<img class="mySlides2" src="/DevPics/Nick5.jpg" style="width:300px;height:300px">
 			<img class="mySlides2" src="/DevPics/Nick6.jpg" style="width:300px;height:300px">
 			<img class="mySlides2" src="/DevPics/Nick7.jpg" style="width:300px;height:300px">
+			<img class="mySlides2" src="/DevPics/Nick8.jpg" style="width:300px;height:300px">
+			<img class="mySlides2" src="/DevPics/Nick9.jpg" style="width:300px;height:300px">
 		</div>
 		<figcaption><b>Nick</b> - Young Canadian hockey god, Meme Connoisseur, and XO Trayvon Stan.</figcaption>
 		</figure></center>
@@ -44,7 +46,18 @@
 			<img class="mySlides3" src="https://cdn.discordapp.com/attachments/385159971668623372/461593044169523211/Snapchat-1659225057.jpg" style="width:300px;height:300px">
 		</div>
 		<figcaption><b>Kevin</b> - Living the hard life with 3 IQ, hit him up in Read 180.</figcaption>
-		</figure></center>
+	</figure></center>
+	<br></br>
+	<center><figure>
+		<div>
+			<img class="mySlides4" src="/DevPics/Maute.jpg" style="width:300px;height:300px">
+			<img class="mySlides4" src="/DevPics/Maute2.jpg" style="width:300px;height:300px">
+			<img class="mySlides4" src="/DevPics/Maute3.jpg" style="width:300px;height:300px">
+			<img class="mySlides4" src="/DevPics/Maute4.jpg" style="width:300px;height:300px">
+			<img class="mySlides4" src="/DevPics/Maute5.jpg" style="width:300px;height:300px">
+		</div>
+		<figcaption><b>Maute</b> - </figcaption>
+		</figcaption></center>
 <script>	  
 var slideIndex = 0;
 carousel();
@@ -91,6 +104,22 @@ function carousel3() {
     if (slideIndex3 > x.length) {slideIndex3 = 1} 
     x[slideIndex3-1].style.display = "block"; 
     setTimeout(carousel3, 3500); // Change image every 2 seconds
+}
+ </script>
+<script>	  
+var slideIndex4 = 0;
+carousel4();
+
+function carousel4() {
+    var i;
+    var x = document.getElementsByClassName("mySlides4");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex4++;
+    if (slideIndex4 > x.length) {slideIndex4 = 1} 
+    x[slideIndex4-1].style.display = "block"; 
+    setTimeout(carousel4, 3500); // Change image every 2 seconds
 }
  </script>
   </body>
