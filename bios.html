@@ -10,5 +10,28 @@
 	     <center><p>
          <a href="./index.html">Home</a> | <a href="./gapeclips.html">Gape Clips</a> | <b>Bios</b>
        	     </p></center>
+	<figure>
+		<div class="mySlides">
+			<img src="/DevPics/Maute.jpg">
+			<img src="/DevPics/DeVaughn.jpg">
+			<img src="/DevPics/Riley.jpg">
+		</div>
+		<figcaption>CHINK CHINK CHINK</figcaption>
+	  </figure>
+	  
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
   </body>
 </html>
