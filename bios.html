@@ -57,7 +57,25 @@
 			<img class="mySlides4" src="/DevPics/Maute5.jpg" style="width:300px;height:300px">
 		</div>
 		<figcaption><b>Maute</b> - </figcaption>
-		</figcaption></center>
+	</figcaption></center>
+	<br></br>
+	<center><figure>
+		<div>
+			<img class="mySlides5" src="/DevPics/DeVaughn.jpg" style="width:300px;height:300px">
+			<img class="mySlides5" src="/DevPics/DeVaughn2.jpg" style="width:300px;height:300px">
+		</div>
+		<figcaption><b>DeVaughn</b> - </figcaption>
+	</figure></center>
+	<br></br>
+	<center><figure>
+		<div>
+			<img class="mySlides6" src="/DevPics/Brian.jpg" style="width:300px;height:300px">
+			<img class="mySlides6" src="/DevPics/Brian2.jpg" style="width:300px;height:300px">
+			<img class="mySlides6" src="/DevPics/Brian3.jpg" style="width:300px;height:300px">
+			<img class="mySlides6" src="/DevPics/Brian4.jpg" style="width:300px;height:300px">
+		</div>
+		<figcaption><b>Brian</b> - </figcaption>
+	</figure></center>
 <script>	  
 var slideIndex = 0;
 carousel();
@@ -120,6 +138,38 @@ function carousel4() {
     if (slideIndex4 > x.length) {slideIndex4 = 1} 
     x[slideIndex4-1].style.display = "block"; 
     setTimeout(carousel4, 3500); // Change image every 2 seconds
+}
+ </script>
+<script>	  
+var slideIndex5 = 0;
+carousel5();
+
+function carousel5() {
+    var i;
+    var x = document.getElementsByClassName("mySlides5");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex5++;
+    if (slideIndex5 > x.length) {slideIndex5 = 1} 
+    x[slideIndex5-1].style.display = "block"; 
+    setTimeout(carousel5, 3500); // Change image every 2 seconds
+}
+ </script>
+<script>	  
+var slideIndex6 = 0;
+carousel6();
+
+function carousel6() {
+    var i;
+    var x = document.getElementsByClassName("mySlides6");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex6++;
+    if (slideIndex6 > x.length) {slideIndex6 = 1} 
+    x[slideIndex6-1].style.display = "block"; 
+    setTimeout(carousel6, 3500); // Change image every 2 seconds
 }
  </script>
   </body>
