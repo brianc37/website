@@ -6,6 +6,206 @@ a:hover, a:active { text-decoration: none; }
 body {
     background-color: lightgrey;
 }
-.zoom:hover {
-    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  background-color: white;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  margin-top: -0px;
+  padding: 2px;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  transition: 0.6s ease;
+  border-radius: 0 2px 2px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 785;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  right: 1101;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+
+/* Next & previous buttons */
+.prev2, .next2 {
+  cursor: pointer;
+  background-color: white;
+  position: absolute;
+  top: 82%;
+  width: auto;
+  margin-top: -0px;
+  padding: 2px;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  transition: 0.6s ease;
+  border-radius: 0 2px 2px 0;
+}
+
+/* Position the "next button" to the right */
+.next2 {
+  right: 785;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev2 {
+  right: 1101;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev2:hover, .next2:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+
+/* Next & previous buttons */
+.prev3, .next3 {
+  cursor: pointer;
+  background-color: white;
+  position: absolute;
+  top: 125%;
+  width: auto;
+  margin-top: -0px;
+  padding: 2px;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  transition: 0.6s ease;
+  border-radius: 0 2px 2px 0;
+}
+
+/* Position the "next button" to the right */
+.next3 {
+  right: 785;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev3 {
+  right: 1101;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev3:hover, .next3:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+
+/* Next & previous buttons */
+.prev4, .next4 {
+  cursor: pointer;
+  background-color: white;
+  position: absolute;
+  top: 167%;
+  width: auto;
+  margin-top: -0px;
+  padding: 2px;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  transition: 0.6s ease;
+  border-radius: 0 2px 2px 0;
+}
+
+/* Position the "next button" to the right */
+.next4 {
+  right: 785;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev4 {
+  right: 1101;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev4:hover, .next4:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+
+/* Next & previous buttons */
+.prev5, .next5 {
+  cursor: pointer;
+  background-color: white;
+  position: absolute;
+  top: 210%;
+  width: auto;
+  margin-top: -0px;
+  padding: 2px;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  transition: 0.6s ease;
+  border-radius: 0 2px 2px 0;
+}
+
+/* Position the "next button" to the right */
+.next5 {
+  right: 785;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev5 {
+  right: 1101;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev5:hover, .next5:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+
+/* Next & previous buttons */
+.prev6, .next6 {
+  cursor: pointer;
+  background-color: white;
+  position: absolute;
+  top: 252%;
+  width: auto;
+  margin-top: -0px;
+  padding: 2px;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  transition: 0.6s ease;
+  border-radius: 0 2px 2px 0;
+}
+
+/* Position the "next button" to the right */
+.next6 {
+  right: 785;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev6 {
+  right: 1101;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev6:hover, .next6:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
 }
