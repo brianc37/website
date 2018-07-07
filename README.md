@@ -16,6 +16,7 @@ Look it up cunt at http://gapestation.com/index.html
 * **Brian C.**
 * **Riley S.**
 * **Devaughn C.** 
+* **Nick V.**
 
 ## Acknowledgments
 
