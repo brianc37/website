@@ -90,6 +90,20 @@
 	<br></br>
 	<center><figure>
 		<div  style="width:300px;height:300px">
+			<img class="mySlides7" src="https://cdn.discordapp.com/attachments/386724492862554113/468608387240951808/image.png" style="width:300px;height:300px">
+			<img class="mySlides7" src="https://cdn.discordapp.com/attachments/386724492862554113/468608467616268301/image.png" style="width:300px;height:300px">
+			<img class="mySlides7" src="https://media.discordapp.net/attachments/386724492862554113/468608142809497600/0312181316_Burst01.jpg?width=328&height=585" style="width:300px;height:300px">
+			<img class="mySlides7" src="https://media.discordapp.net/attachments/393571473572495370/467902565376327716/0714182357.jpg?width=328&height=584" style="width:300px;height:300px">
+			<img class="mySlides7" src="https://cdn.discordapp.com/attachments/386724492862554113/468609099534172160/image.png" style="width:300px;height:300px">
+			
+			<button class="prev7" onclick="plusDivs7(-1)">&#10094;</button>
+			<button class="next7" onclick="plusDivs7(1)">&#10095;</button>
+		</div>
+		<figcaption><b>Tyler</b> - </figcaption>
+	</figure></center>
+	<br></br>
+	<center><figure>
+		<div  style="width:300px;height:300px">
 			<img class="mySlides6" src="./DevPics/Brian.jpg" style="width:300px;height:300px">
 			<img class="mySlides6" src="./DevPics/Brian2.jpg" style="width:300px;height:300px">
 			<img class="mySlides6" src="./DevPics/Brian3.jpg" style="width:300px;height:300px">
@@ -217,6 +231,25 @@ function showDivs6(n) {
 		x[i].style.display = "none";
 	}
 	x[slideIndex6-1].style.display = "block";
+}
+	</script>
+<script>	  
+var slideIndex7 = 1;
+showDivs7(slideIndex7);
+
+function plusDivs7(n) {
+	showDivs7(slideIndex7 += n);
+}
+
+function showDivs7(n) {
+	var i;
+	var x = document.getElementsByClassName("mySlides7");
+	if (n > x.length) {slideIndex7 = 1}
+	if (n < 1) {slideIndex7 = x.length}
+	for (i = 0; i < x.length; i++) {
+		x[i].style.display = "none";
+	}
+	x[slideIndex7-1].style.display = "block";
 }
  </script>
   </body>
